@@ -40,9 +40,7 @@ public class test
         for (int i = 0; i < 3; i++)for (int j = 0; j < 3; j++){arr[i][j] = new Monitor(id, brand, name, coloring, price, x, y, screenDiagonal);}
         
         for (int i = 0; i < 3; i++)for (int j = 0; j < 2; j++)arr[i][j].PriceDifference(arr[i][j+1].getprice());
-        
-        
-        
+                
         scanner.close();
     }
 }
